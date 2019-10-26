@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "npx ng test --browsers=Chrome",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "package": "npx ng-packagr -p package.json"
